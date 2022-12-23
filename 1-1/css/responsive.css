@@ -1,0 +1,81 @@
+/*タブレット向けレイアウト*/
+@media screen and (max-width: 767px) {
+    .header{
+        width: 300px;
+    }   
+
+    .left {
+        width: 100px;
+    }
+
+    .yellow {
+        width: 125px;
+    }
+  
+    .blue{
+        width: 125px; 
+    }
+
+    .pink{
+        width: 75px; 
+    }
+
+    .brown{
+        width: 200px; 
+    }
+
+    .footer{
+        width: 300px; 
+    }
+}
+
+
+/*ipone向けレイアウト*/
+@media screen and (max-width: 479px) {
+    .body{
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .header{
+        width: 150px;
+        }
+
+    .left{
+        width: 150px;
+        float: none;
+    }
+
+    .right{
+        float: none;
+        }
+
+    .center{
+         float: none;
+        }
+
+    .yellow {
+       width: 150px;
+        }  
+
+    .blue{
+       width: 150px; 
+        }
+
+    .pink{
+       width: 150px; 
+       float: none;
+         } 
+        
+    .brown{
+       width: 150px; 
+       float: none;
+       } 
+
+    .footer{
+        width: 150px; 
+        float: none;
+        }    
+
+
+    }
