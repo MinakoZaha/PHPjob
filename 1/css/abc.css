@@ -1,0 +1,57 @@
+/*iphone向けレイアウト*/
+@media screen and (max-width: 479px) {
+  
+    .header {
+        width: 200px;
+        height: 180px;
+        padding-top: 20px;
+        background-color: #141f40;
+    }
+   
+   .container{
+     float: none;
+   }
+   
+  .white {
+    flex-direction: column;
+    margin: auto;
+    height: 160px;
+    width: 60px;
+  }
+  
+  .box1 {
+    margin: auto;
+  }
+  
+   .box2 {
+     margin: auto;
+  }
+  
+   .box3 {
+     margin: auto;
+  }
+  
+    .left {
+      float: none;
+      width: 200px;
+      height: 100px;
+    }
+   
+    .right {
+      float: none;
+      width: 200px;
+      height: 190px;
+      padding-top: 20px;
+    }
+   
+    .main-window{
+      margin: 0 30px 0 30px;
+    }
+   
+    .footer{
+      width: 200px;
+    }
+ }
+ 
+ 
+ 
